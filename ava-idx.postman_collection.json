@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "897f2049-607b-48a4-9c1d-28f28207438d",
+		"name": "ava-idx",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "topWallets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/topWallets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"topWallets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "txsByValue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/txsByValue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"txsByValue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "walletTxs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/walletTxs?w=0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"walletTxs"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "0x9f8c163cba728e99993abe7495f06c0a3c8ac8b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "walletTxCount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/walletTxCount?w=0x9cc548536d8ec1d6c89e6ddd3b0ceea350fe73dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"walletTxCount"
+					],
+					"query": [
+						{
+							"key": "w",
+							"value": "0x9cc548536d8ec1d6c89e6ddd3b0ceea350fe73dc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
